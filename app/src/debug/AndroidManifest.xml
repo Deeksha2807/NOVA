@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Enables cleartext HTTP traffic (e.g. http://10.0.2.2:8000 or local LAN IP)
+        STRICTLY for debug/development builds. This manifest is merged into the
+        debug build variant only; production/release builds do not include this.
+    -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

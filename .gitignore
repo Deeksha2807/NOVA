@@ -1,21 +1,29 @@
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
 .kotlin
-*.env
+
+# Android Studio / IDE
+.idea/
+.vscode/
+
+# Build outputs
+.gradle/
+build/
+/build
+app/build/
+local.properties
+
+# Environment variables and secrets
 .env
-__pycache__/
-venv/
+*.env
+!.env.example
+
+# Python environments and caches
 .venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]

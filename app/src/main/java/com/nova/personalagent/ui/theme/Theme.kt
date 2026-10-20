@@ -23,11 +23,11 @@ private val NovaDarkColorScheme = darkColorScheme(
 
 @Composable
 fun NOVATheme(
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 ) {
     MaterialTheme(
         colorScheme = NovaDarkColorScheme,
         typography  = Typography,
-        content     = content
+        content     = content,
     )
 }
